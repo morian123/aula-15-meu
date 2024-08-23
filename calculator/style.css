@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
 body {
@@ -54,7 +55,6 @@ button {
   background-color: #2e2f38;
   border: #2e2f38 1px solid;
   border-radius: 1.5rem;
-  color: #fff;
   font-size: 40px;
   height: 4.5rem;
   width: 100%;
