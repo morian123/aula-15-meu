@@ -4,11 +4,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #fff;
 }
 
 body {
-  background-color: #17171c;
   display: grid;
   place-items: center;
   font-family: "Work Sans", sans-serif;
@@ -33,7 +31,6 @@ main {
 
 section h2 {
   font-size: 40px;
-  color: #4e505f;
 }
 
 section h1 {
@@ -52,9 +49,6 @@ div {
 }
 
 button {
-  background-color: #2e2f38;
-  border: #2e2f38 1px solid;
-  border-radius: 1.5rem;
   font-size: 40px;
   height: 4.5rem;
   width: 100%;
@@ -62,15 +56,6 @@ button {
 
 button:hover {
   cursor: pointer;
-  border: #fff 1px solid;
-}
-
-.medium__gray {
-  background-color: #4e505f;
-}
-
-.blue__bg {
-  background-color: #4b5efc;
 }
 
 @media screen and (max-width: 768px) {
@@ -97,6 +82,5 @@ button:hover {
   button {
     font-size: 24px;
     height: 3.5rem;
-    border-radius: 1rem;
   }
 }
